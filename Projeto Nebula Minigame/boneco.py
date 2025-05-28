@@ -3,7 +3,7 @@ from configuracoes import *
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos):
         super().__init__()
-        self.image = pygame.image.load(join('Nebula Minigame\\data\\boneco.png')).convert_alpha()
+        self.image = pygame.image.load(join('Projeto Nebula Minigame\\data\\boneco.png')).convert_alpha()
         self.rect = self.image.get_rect(center=pos)
 
 
