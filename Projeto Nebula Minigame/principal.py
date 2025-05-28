@@ -6,13 +6,13 @@ from resposta import Resposta # Importa o sistema de respostas
 import pygame # Importa o usada para gerar os elementos gráficos
 
 # Fundo do jogo:
-fundo = pygame.image.load('Nebula Minigame\\data\\cenario_comando.png') # Carrega a imagem de fundo utilizada no projeto
+fundo = pygame.image.load('Projeto Nebula Minigame\\data\\cenario_comando.png') # Carrega a imagem de fundo utilizada no projeto
 
 # Classe para o menu, que gerencia a tela inicial do projeto:
 class Menu: 
     def __init__(self, display_surface): #Inicializa o menu
         self.display_surface = display_surface  # Recebe a superfície de exibição
-        self.imagem_menu = pygame.image.load('Nebula Minigame\\data\\menu.png')  # Exibe a imagem do menu inicial
+        self.imagem_menu = pygame.image.load('Projeto Nebula Minigame\\data\\menu.png')  # Exibe a imagem do menu inicial
         self.rodando = True # Indica que o menu está em execução
         self.jogar_rect = pygame.Rect(largura // 2 - 300, altura // 2 + 110, 280, 100)  # Define a área do botão JOGAR
         self.sair_rect = pygame.Rect(largura // 2 + 20, altura // 2 + 110, 285, 100)  # Define a área do botão SAIR
