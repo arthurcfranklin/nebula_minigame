@@ -1,6 +1,6 @@
 # Nebula Minigame Interativo com Python
 
-Este projeto foi idealizado e desenvolvido para o curso de Desenvolvimento de Software no SENAI.
+Este projeto foi idealizado e desenvolvido para o curso de Desenvolvimento de Sistemas no SENAI.
 
 Se trata de um minigame interativo desenvolvido em **Python** utilizando a biblioteca **Pygame**. O jogo apresenta um menu inicial, opções de interação e um sistema de perguntas e respostas sobre a linguagem de programação Python, em apenas uma tela clicável.
 
